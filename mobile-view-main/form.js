@@ -1,4 +1,4 @@
-let myform = document.getElementById('form');
+/*let myform = document.getElementById('form');
 
 myform.addEventListener("submit", (event)=>{
   event.preventDefault();
@@ -18,3 +18,8 @@ myform.addEventListener("submit", (event)=>{
   
   myform.reset();
 });
+ */
+let myform=document.getElementById('form');
+myform.addEventListener("submit",(event)=>{
+  event.preventDefault();
+}
